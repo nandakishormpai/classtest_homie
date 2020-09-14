@@ -1,7 +1,11 @@
 import requests   
 import webbrowser
 import bs4
-res = requests.get('https://docs.google.com/forms/d/e/1FAIpQLSdmUGSzhsbT_w4x34DyVoOvCcnMsrWEjZwM_MCqIDWgC_tAAg/viewform?usp=sf_link') 
+form_link = input("Enter the link for google form: ")
+try:
+    res = requests.get(form_link)
+except requests.exceptions.RequestException as e:
+    raise SystemExit(e)
 noStarchSoup = bs4.BeautifulSoup(res.text,"html.parser")                                  
 elems = noStarchSoup.select('div .freebirdFormviewerComponentsQuestionBaseTitle') 
 for i in elems:
