@@ -16,7 +16,7 @@ cd classtest_homie
 
 pip install -r requirements.txt
 ```
-<i>Copy the Form  link to be inputted</i> 
+<i>Copy the Form  link to be input</i> 
 
 ```bash
 python maboi.py
