@@ -10,7 +10,7 @@ Just copy paste the Google form link and links are infornt of you a click away.
 
 ## How to use
 ```bash
-gh repo clone nandakishormpai2001/classtest_homie
+git clone nandakishormpai2001/classtest_homie
 
 cd classtest_homie
 
