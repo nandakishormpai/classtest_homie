@@ -1,6 +1,6 @@
 # classtest_homie
 
-##Why such a scrapper ?
+## Why such a scraper ?
 
 Most of us now a days have online tests through Google Forms. We spend lot of time copy pasting the question to google and clicking the first link and then going back and clicking 2nd link in case you dont find the first useful. It may sound easy, but when time constraint is involved, this costs a lot of Time. 
 No more multiple copy pasting. 
