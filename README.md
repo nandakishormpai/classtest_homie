@@ -8,7 +8,7 @@ No more of that is needed
 With this,
 Just copy paste the Google form link and links are infornt of you a click away.
 
-##How to use
+## How to use
 ```bash
 gh repo clone nandakishormpai2001/classtest_homie
 
@@ -16,9 +16,9 @@ cd classtest_homie
 
 pip install -r requirements.txt
 ```
-Copy the Form  link to be inputted 
+<i>Copy the Form  link to be inputted</i> 
 
 ```bash
 python maboi.py
 ```
-##Thanks for Using
+## Thanks for Using
