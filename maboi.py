@@ -5,8 +5,6 @@ from googlesearch import search
 link=input("Enter the google form URL here:\n")
 res = requests.get(link) 
 noStarchSoup = bs4.BeautifulSoup(res.text,"html.parser")   
-heading=noStarchSoup.select('div .freebirdFormviewerViewHeaderTitle')
-file1 = open("try.txt","w")
 elems = noStarchSoup.select('div .freebirdFormviewerComponentsQuestionBaseTitle') 
 j=1
 print("------------------------------------------------\n--------------LINKS FOR YOU LAZY----------------")
